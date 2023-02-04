@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import BlogsListPage from './pages/BlogsListPage';
 import BlogPage from './pages/BlogPage';
+import AuthorPage from './pages/AuthorPage';
 const router = createBrowserRouter([
   {
    path: "/",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <BlogPage />,
+  },
+  {
+    path: "/author",
+    element: <AuthorPage />,
   },
 ]);
  
